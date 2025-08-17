@@ -8,7 +8,9 @@ class AppServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
+     * 
      */
+public const HOME = '/admin/dashboard';
     public function register(): void
     {
         //
